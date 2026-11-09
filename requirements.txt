@@ -1,0 +1,10 @@
+# Dépendances Python (exécution)
+customtkinter>=5.2
+reportlab>=4.0
+
+# Outils externes NON gérés par pip (voir README) :
+#   - whisper.cpp (binaire whisper-cli + modèles ggml) pour la transcription
+#   - ffmpeg / ffprobe pour la conversion audio
+#   - Ollama + un modèle Qwen3 pour la synthèse
+#
+# Empaquetage Windows (optionnel) : pip install pyinstaller
